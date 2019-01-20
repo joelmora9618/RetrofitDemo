@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "org.goodev.retrofitdemo"
+        minSdkVersion 20
+        targetSdkVersion 27
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:18.0.0'
+    implementation 'com.google.code.gson:gson:2.2.4'
+    implementation files('libs/okhttp-1.0.2.jar')
+    implementation files('libs/retrofit-1.0.1.jar')
+}
