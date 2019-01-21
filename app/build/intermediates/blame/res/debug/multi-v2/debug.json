@@ -33,7 +33,7 @@
                         "startOffsets": "220",
                         "endLines": "9",
                         "endColumns": "12",
-                        "endOffsets": "346"
+                        "endOffsets": "347"
                     },
                     "to": {
                         "startLines": "2",
@@ -41,7 +41,7 @@
                         "startOffsets": "55",
                         "endLines": "4",
                         "endColumns": "12",
-                        "endOffsets": "181"
+                        "endOffsets": "182"
                     }
                 }
             ]
@@ -60,29 +60,29 @@
                         "endOffsets": "472,665"
                     },
                     "to": {
-                        "startLines": "7,14",
+                        "startLines": "8,15",
                         "startColumns": "4,4",
-                        "startOffsets": "325,616",
-                        "endLines": "13,16",
+                        "startOffsets": "395,686",
+                        "endLines": "14,17",
                         "endColumns": "12,12",
-                        "endOffsets": "611,771"
+                        "endOffsets": "681,841"
                     }
                 },
                 {
                     "source": "C:\\tutoriales\\RetrofitExa\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "4,3,5",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "106,56,159",
-                        "endColumns": "52,49,52",
-                        "endOffsets": "154,101,207"
+                        "startLines": "4,3,8,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "106,56,271,159",
+                        "endColumns": "52,49,69,52",
+                        "endOffsets": "154,101,336,207"
                     },
                     "to": {
-                        "startLines": "4,5,6",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "169,222,272",
-                        "endColumns": "52,49,52",
-                        "endOffsets": "217,267,320"
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "169,222,272,342",
+                        "endColumns": "52,49,69,52",
+                        "endOffsets": "217,267,337,390"
                     }
                 },
                 {
@@ -115,7 +115,7 @@
                         "startOffsets": "177",
                         "endLines": "8",
                         "endColumns": "12",
-                        "endOffsets": "303"
+                        "endOffsets": "304"
                     },
                     "to": {
                         "startLines": "2",
@@ -123,7 +123,7 @@
                         "startOffsets": "55",
                         "endLines": "4",
                         "endColumns": "12",
-                        "endOffsets": "181"
+                        "endOffsets": "182"
                     }
                 }
             ]

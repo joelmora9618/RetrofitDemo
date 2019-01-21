@@ -4,12 +4,20 @@
         "source": "C:\\tutoriales\\RetrofitExa\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
+        "merged": "C:\\tutoriales\\RetrofitExa\\app\\build\\intermediates\\res\\merged\\debug\\layout_generic_recycler_view.xml.flat",
+        "source": "C:\\tutoriales\\RetrofitExa\\app\\src\\main\\res\\layout\\generic_recycler_view.xml"
+    },
+    {
         "merged": "C:\\tutoriales\\RetrofitExa\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
         "source": "C:\\tutoriales\\RetrofitExa\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\tutoriales\\RetrofitExa\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
         "source": "C:\\tutoriales\\RetrofitExa\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\tutoriales\\RetrofitExa\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_contactos.xml.flat",
+        "source": "C:\\tutoriales\\RetrofitExa\\app\\src\\main\\res\\layout\\fragment_contactos.xml"
     },
     {
         "merged": "C:\\tutoriales\\RetrofitExa\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",

@@ -2,6 +2,7 @@ package org.goodev.retrofitdemo;
 
 import java.util.List;
 
+import org.goodev.retrofitdemo.busines.ContactoBusiness;
 import org.goodev.retrofitdemo.model.Contacto;
 
 import retrofit.Callback;
@@ -15,6 +16,14 @@ import android.widget.ListView;
 public class MainActivity extends ListActivity {
 
     ListView mListView;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mListView = getListView();
+        ContactoBusiness.newInstance().contacts(callback);
+    }
+
     Callback<List<Contacto>> callback = new Callback<List<Contacto>>() {
 
         @Override
@@ -28,12 +37,5 @@ public class MainActivity extends ListActivity {
         public void failure(RetrofitError error) {
         }
     };
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        mListView = getListView();
-        GitHubClient.getContributors(callback);
-    }
 
 }

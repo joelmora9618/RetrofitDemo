@@ -15,39 +15,6 @@
  */
 package org.goodev.retrofitdemo;
 
-import org.goodev.retrofitdemo.model.Contacto;
-
-import java.util.List;
-
-import retrofit.Callback;
-import retrofit.RestAdapter;
-import retrofit.http.GET;
-import retrofit.http.Path;
-
 public class GitHubClient {
-    private static final String API_URL = "https://private-d0cc1-iguanafixtest.apiary-mock.com";
-
-    interface GitHub {
-        @GET("/contacts/{id}")
-        List<Contacto> contacts(@Path("id") String id);
-
-        @GET("/contacts/{id}")
-        void contacts(@Path("id") String id, Callback<List<Contacto>> callback);
-
-        @GET("/contacts")
-        void contacts(Callback<List<Contacto>> callback);
-    }
-
-    public static void getContributors(Callback<List<Contacto>> callback) {
-        // Create a very simple REST adapter which points the GitHub API
-        // endpoint.
-        RestAdapter restAdapter = new RestAdapter.Builder().setServer(API_URL).build();
-
-        // Create an instance of our GitHub API interface.
-        GitHub github = restAdapter.create(GitHub.class);
-
-        // Fetch and print a list of the contributors to this library.
-        github.contacts(callback);
-
-    }
+    public static final String API_URL = "https://private-d0cc1-iguanafixtest.apiary-mock.com";
 }
